@@ -1,0 +1,18 @@
+// COLLOR
+$bgc: lighten(rgb(36, 35, 35),10%);
+$shadow: 0px 2px 8px rgba(20, 20, 20, 0.473);
+$shadow-in: 0px -2px 8px rgba(20, 20, 20, 0.473);
+$color1: #AA1423;
+$color2: #777;
+$color3: #EEE;
+$nav-hover: rgb(129, 145, 140);
+$nav-hoverT: .5s;
+
+$imageBackground: url(../../Assets/background-home.jpg);
+
+// FONTS
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$roboto: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+$robotoSlab: 'Roboto Slab', serif;
