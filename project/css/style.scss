@@ -35,7 +35,7 @@ header{
 .main{
     @include theme(100%, 100vh, transparent, none);
     @include flex(column, center, center);
-    @include backgroundImage($imageBackground, fixed, cover);
+    @include backgroundImage($imageBackground, normal, cover);
     background-position: 50%;
     h1{
         @include text($color3, none, none, $robotoSlab, 2.1em)
@@ -76,6 +76,10 @@ header{
             }
         }
     }
+}
+.top-links{
+    @include flex(column, center, center);
+    padding: 30px 0px;
 }
 
 footer{
