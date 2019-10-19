@@ -1,0 +1,24 @@
+@mixin flex($-direction: row, $-justifyContent, $-alignItems){
+    display: flex;
+    flex-direction: $-direction;
+    justify-content:$-justifyContent;
+    align-items: $-alignItems;
+}
+@mixin theme($-width, $-heigth, $-backgroundColor, $-boxShadow){
+    width: $-width;
+    min-height: $-heigth;
+    background-color: $-backgroundColor;
+    box-shadow: $-boxShadow;
+}
+@mixin text($-color, $-textDecoration, $-textTransform, $-fontFamily, $-fontSize){    
+    color: $-color;
+    text-decoration: $-textDecoration;
+    text-transform: $-textTransform;
+    font-family: $-fontFamily;
+    font-size: $-fontSize  
+}
+@mixin backgroundImage($-image, $-attachment, $-size) {
+    background-image: $-image;
+    background-attachment: $-attachment;
+    background-size: $-size;
+}

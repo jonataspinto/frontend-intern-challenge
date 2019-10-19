@@ -44,13 +44,13 @@ header {
   margin-top: 15px;
   margin-bottom: 40px;
 }
-.main form {
+.main div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
 }
-.main form input {
+.main div input {
   width: 300px;
   min-height: auto;
   background-color: none;
@@ -62,13 +62,13 @@ header {
   padding: 10px 10px 10px 0px;
   margin: 0px 10px;
 }
-.main form input:focus {
+.main div input:focus {
   outline: none;
 }
-.main form input::placeholder {
+.main div input::placeholder {
   color: #ff7b00;
 }
-.main form button {
+.main div button {
   width: 99px;
   min-height: 39px;
   background-color: none;
@@ -80,7 +80,7 @@ header {
   background-color: #ff7b00;
   text-transform: uppercase;
 }
-.main form button:focus {
+.main div button:focus {
   outline: none;
 }
 
@@ -90,6 +90,33 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px 0px;
+}
+.top-links ul {
+  width: 100vw;
+  min-height: auto;
+  background-color: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-links ul li {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: solid 1px #dddddd;
+  margin-bottom: 10px;
+}
+.top-links ul li p {
+  margin-bottom: 5px;
+  color: #AA1423;
+  font-weight: 400px;
+}
+.top-links ul li p:last-child {
+  color: #777777;
 }
 
 footer {
