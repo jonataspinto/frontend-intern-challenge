@@ -21,6 +21,6 @@ function setValue(){
     }    
 }
 
-let myjson = "../../Assets/urls.json"
+let myjson = "./Assets/urls.json"
 loadLinks(myjson)
 
